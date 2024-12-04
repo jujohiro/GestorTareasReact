@@ -1,0 +1,59 @@
+.frm-task {
+  margin:20px;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  background-color: #b9b2b2;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column; /* Colocar inputs y botón en columna */
+  align-items: center;
+  gap: 2rem; /* Añadir espaciado entre los inputs y el botón */
+}
+
+.frm-task input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 1px solid #2370bd;
+  font-size: 1rem;
+  
+
+}
+
+.frm-task button {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  background-color: #f50606;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.frm-task button:hover {
+  background-color: #0056b3;
+}
+
+.item-task > h2 {
+  font-size: 1.5rem;
+  color: #343a40;
+  font-weight: bold;
+}
+
+.item-task > p {
+  color: #6c757d;
+  font-size: 1.3rem;
+}
+
+/* Checkbox */
+.item-task > input[type=checkbox] {
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+}

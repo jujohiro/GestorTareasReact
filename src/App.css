@@ -1,0 +1,43 @@
+:root {
+  --body-color: #dbdbe3;
+  --header-color: #908ba0;
+  --task-color: #b7b5c4;
+  --main-color: #cbcbd6;
+  --font-color: #000000;
+  --btn-color: #0e3ce6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-color);
+  width: auto;
+  height: auto;
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+  color: var(--font-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Contenedor Raíz (#root) */
+#root {
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--main-color);
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  gap: 2rem; /* Espaciado entre elementos */
+}
